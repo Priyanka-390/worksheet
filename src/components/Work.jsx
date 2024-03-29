@@ -12,7 +12,8 @@ import img10 from "../assets/images/img10.png";
 import img11 from "../assets/images/img11.png";
 import img12 from "../assets/images/img12.png";
 import img13 from "../assets/images/img13.png";
-import img14 from "../assets/images/img14.png"
+import img14 from "../assets/images/img14.png";
+import img15 from "../assets/images/vite.png";
 
 
 const Work = () => {
@@ -812,6 +813,57 @@ const Work = () => {
                           target="blank"
                         >
                           https://worksheet-tau.vercel.app/
+                        </a>
+                      </span>
+                    </p>
+                  </div>
+                </div>
+              </div>
+
+              <div className="flex pt-6 flex-wrap items-center flex-row -mx-3">
+                <div className="w-2/5 px-3">
+                  <div className="flex">
+                    <p className="text-white pr-1 text-2xl font-poppins pb-3">
+                      7.
+                    </p>
+                    <img
+                      src={img15}
+                      alt="14"
+                      className="w-full h-full max-h-[200px] max-w-[350px]"
+                    />
+                  </div>
+                </div>
+                <div className="w-3/5 px-3">
+                  <div className="flex flex-wrap pb-3 items-center">
+                    <p className="text-white pr-2 font-semibold text-3xl font-poppins ">
+                     VITE_HTML
+                    </p>
+                    <p className="text-white  text-xl font-poppins ">
+                      (Date of submission : 29-03-2024)
+                    </p>
+                  </div>
+                  <div>
+                    <p className="text-white text-xl font-poppins ">
+                      Github-Link :{" "}
+                      <span className="ms-3 border-b-2 border-white hover:text-blue-700">
+                        <a
+                          href="https://github.com/Priyanka-390/my-vite
+
+"
+                          target="blank"
+                        >
+                        https://github.com/Priyanka-390/my-vite
+                        </a>
+                      </span>
+                    </p>
+                    <p className="text-white text-xl font-poppins ">
+                      Live-Link :{" "}
+                      <span className="ms-3 border-b-2 border-white hover:text-blue-700">
+                        <a
+                          href="https://my-vite-kohl.vercel.app/"
+                          target="blank"
+                        >
+                          https://my-vite-kohl.vercel.app/
                         </a>
                       </span>
                     </p>
