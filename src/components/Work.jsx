@@ -15,7 +15,8 @@ import img13 from "../assets/images/img13.png";
 import img14 from "../assets/images/img14.png";
 import img15 from "../assets/images/vite.png";
 import noble from "../assets/images/noble.png";
-import emailjs from "../assets/images/emailimg.png"
+import emailjs from "../assets/images/emailimg.png";
+import hubrich from "../assets/images/hubrich.png"
 
 
 const Work = () => {
@@ -968,6 +969,54 @@ const Work = () => {
                           target="blank"
                         >
                           https://validation-emailjs.vercel.app/
+                        </a>
+                      </span>
+                    </p>
+                  </div>
+                </div>
+              </div>
+               <div className="flex pt-6 flex-wrap items-center flex-row -mx-3">
+                <div className="w-2/5 px-3">
+                  <div className="flex">
+                    <p className="text-white pr-1 text-2xl font-poppins pb-3">
+                      3.
+                    </p>
+                    <img
+                      src={hubrich}
+                      alt="1"
+                      className="w-full h-[170px] max-w-[300px]"
+                    />
+                  </div>
+                </div>
+                <div className="w-3/5 px-3">
+                  <div className="flex pb-3 items-center">
+                    <p className="text-white pr-2 font-semibold text-3xl font-poppins ">
+                    MARC JOACHIM HUBRICH
+                    </p>
+                    <p className="text-white  text-xl font-poppins ">
+                      (Date of submission : 25-04-2024)
+                    </p>
+                  </div>
+                  <div>
+                    <p className="text-white text-xl font-poppins ">
+                      Github-Link :{" "}
+                      <span className="ms-3 border-b-2 border-white hover:text-blue-700">
+                        <a
+                          href="https://github.com/Priyanka-390/hubrich"
+                          target="blank"
+                        >
+                          https://github.com/Priyanka-390/hubrich
+                        </a>
+                      </span>
+                    </p>
+                    <p className="text-white text-xl font-poppins ">
+                      Live-Link :{" "}
+                      <span className="ms-3 border-b-2 border-white hover:text-blue-700">
+                        <a
+                          href="https://hubrich-ten.vercel.app/"
+                          target="blank"
+                        >
+                          https://hubrich-ten.vercel.app/
                         </a>
                       </span>
                     </p>
