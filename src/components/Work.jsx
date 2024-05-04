@@ -16,7 +16,8 @@ import img14 from "../assets/images/img14.png";
 import img15 from "../assets/images/vite.png";
 import noble from "../assets/images/noble.png";
 import emailjs from "../assets/images/emailimg.png";
-import hubrich from "../assets/images/hubrich.png"
+import hubrich from "../assets/images/hubrich.png";
+import Kodeden from "../assets/images/koden.png"
 
 
 const Work = () => {
@@ -57,6 +58,9 @@ const Work = () => {
             </button>
              <button onClick={() => handletab("tab5")} className="rounded-full mb-2 w-full font-Poppins px-8 text-2xl text-center text-white py-2 border-solid border-white border-[3px]">
        MAY
+            </button>
+             <button onClick={() => handletab("tab6")} className="rounded-full mb-2 w-full font-Poppins px-8 text-2xl text-center text-white py-2 border-solid border-white border-[3px]">
+       JUNE
       </button>
           </div>
           <div className="w-4/5 px-3">
@@ -1027,6 +1031,56 @@ const Work = () => {
             }
 
              {tab === "tab5" && <div>
+ <div className="flex flex-wrap items-center flex-row -mx-3">
+                <div className="w-2/5 px-3">
+                  <div className="flex">
+                    <p className="text-white pr-1 text-2xl font-poppins pb-3">
+                      1.
+                    </p>
+                    <img
+                      src={Kodeden}
+                      alt="1"
+                      className="w-full h-[170px] max-w-[300px]"
+                    />
+                  </div>
+                </div>
+                <div className="w-3/5 px-3">
+                  <div className="flex pb-3 items-center">
+                    <p className="text-white pr-2 font-semibold text-3xl font-poppins ">
+                    KODEDEN
+                    </p>
+                    <p className="text-white  text-xl font-poppins ">
+                      (Date of submission : 04-05-2024)
+                    </p>
+                  </div>
+                  <div>
+                    <p className="text-white text-xl font-poppins ">
+                      Github-Link :{" "}
+                      <span className="ms-3 border-b-2 border-white hover:text-blue-700">
+                        <a
+                          href="https://github.com/Priyanka-390/kodeden"
+                          target="blank"
+                        >
+                          https://github.com/Priyanka-390/kodeden
+                        </a>
+                      </span>
+                    </p>
+                    <p className="text-white text-xl font-poppins ">
+                      Live-Link :{" "}
+                      <span className="ms-3 border-b-2 border-white hover:text-blue-700">
+                        <a
+                          href="https://kodeden-gold.vercel.app/"
+                          target="blank"
+                        >
+                          https://kodeden-gold.vercel.app/
+                        </a>
+                      </span>
+                    </p>
+                  </div>
+                </div>
+              </div>            </div>
+            }
+             {tab === "tab6" && <div>
              <p className="text-white text-4xl">COMING_SOON</p>
             </div>
             }
